@@ -3,6 +3,7 @@
   color: white;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .Header-container {
   width: 100%;
@@ -36,4 +37,39 @@
   border: none;
   padding: 10px;
   cursor: pointer;
+}
+
+.Header-search {
+  height: 30px;
+  background-color: white;
+  border: 3px solid #febb02;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerIcon {
+  color: lightgray;
+}
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerSserchInput {
+  border: none;
+  outline: none;
+}
+.headerSearchText {
+  color: lightgray;
+  cursor: pointer;
+}
+.date {
+  position: absolute;
+  top: 0px;
 }
