@@ -1,0 +1,39 @@
+.Header {
+  background-color: rgb(32, 75, 216);
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+.Header-container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+}
+.Header-List {
+  display: flex;
+  gap: 40px;
+}
+.headerListItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerListItem.active {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+}
+.Header-title {
+  margin-top: 5px;
+}
+.Header-Desc {
+  margin: 20px 0px;
+}
+.Header-button {
+  background-color: rgb(63, 104, 238);
+  color: white;
+  font-weight: 500;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
