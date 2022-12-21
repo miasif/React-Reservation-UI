@@ -5,7 +5,7 @@ import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import MailList from '../../components/MailList/MailList';
 import Navbar from '../../components/Navbar/Navbar';
-import PropertyList from '../../components/PropertyList/PropertyList';
+import PropertyList from '../../components/propertyList/propertyList';
 import './Home.css';
 
 function Home() {
