@@ -1,6 +1,6 @@
 import React from 'react';
 import Featured from '../../components/Featured/Featured';
-import FeaturedProperties from '../../components/FeaturedProperties/FeaturedProperties';
+import FeaturedProperties from '../../components/featuredProperties/FeaturedProperties';
 import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
 import MailList from '../../components/MailList/MailList';
