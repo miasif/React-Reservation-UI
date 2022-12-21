@@ -1,5 +1,5 @@
 import React from 'react';
-import './PropertyList.css';
+import './propertyList.css';
 
 function PropertyList() {
   return (
