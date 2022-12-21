@@ -1,6 +1,7 @@
 import React from 'react';
 import Featured from '../../components/Featured/Featured';
 import FeaturedProperties from '../../components/featuredProperties/FeaturedProperties';
+import Footer from '../../components/footer/Footer';
 import Header from '../../components/Header/Header';
 import MailList from '../../components/mailList/MailList';
 import Navbar from '../../components/Navbar/Navbar';
@@ -20,6 +21,7 @@ function Home() {
 
         <FeaturedProperties />
         <MailList />
+        <Footer />
       </div>
     </>
   );
