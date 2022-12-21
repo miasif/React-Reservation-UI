@@ -1,11 +1,11 @@
 import React from 'react';
 import Featured from '../../components/Featured/Featured';
-import FeaturedProperties from '../../components/featuredProperties/FeaturedProperties';
-import Footer from '../../components/footer/Footer';
+import FeaturedProperties from '../../components/FeaturedProperties/FeaturedProperties';
+import Footer from '../../components/Footer/Footer';
 import Header from '../../components/Header/Header';
-import MailList from '../../components/mailList/MailList';
+import MailList from '../../components/MailList/MailList';
 import Navbar from '../../components/Navbar/Navbar';
-import PropertyList from '../../components/propertyList/PropertyList';
+import PropertyList from '../../components/PropertyList/PropertyList';
 import './Home.css';
 
 function Home() {
